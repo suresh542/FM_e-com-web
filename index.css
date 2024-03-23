@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container-fluid{
+    padding: 0%;
+}
+.navbar{
+     padding-top: 20px;
+    /* padding-bottom: 30px;  */
+    border-bottom:1px solid; 
+}
+#NavBrand {
+    font-family: "Bakbak One", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: start;
+    align-items: start;
+  }
+  #navbarSupportedContent{
+    padding-left: 50px;
+    
+    
+  }
+  #navbarSupportedContent ul li{
+    width: auto;
+    position: relative;
+    height: 100%;
+  }
+  #navbarSupportedContent ul li a{
+    font-size: 18px;
+    align-items: center;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: rgb(184, 184, 184);
+    padding-right: 30px;
+  }
+  #navbarSupportedContent ul li a:active{
+    font-size: 18px;
+    position: relative;
+    color: black;
+    /* border-bottom:2px solid #ffa600; */
+  }
+  #rigthSideCards img:nth-child(2){
+    width: 50px;
+    align-items: center;
+    text-align: center;
+    height: auto;
+  }
+  hr{
+    margin: 0;
+  }
+.imageVisible div img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+#imageSlide img{
+  margin-top: 50px;
+  border-radius: 10px;
+  width: 95px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: auto;
+}
+#imageSlide img:first-child {
+  margin-left: 0px;
+}
+#imageSlide img:last-child {
+  margin-left: 0px;
+}
+#imageSlide img:active{
+ border: 2px solid orange
+}
+.nav-item a{
+  flex-direction: column;
+  height:  100%;
+}
+.AddCards button{
+  width: 100%;
+  padding:10px 100px 10px 100px;
+  background-color: rgb(255, 140, 0);
+  font-size: 20px;
+  color: white;
+  -webkit-text-fill-color: #ffffff;
+}
+.AddCards button:hover{
+  background-color: #ffa600;
+}
+.AddCards button:focus{
+  background-color: #ffa600;
+  color: #000;
+}
+.ProductCount{
+  display: flex;
+  border-radius: 10px;
+  margin-right: 30px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(239, 239, 252);
+}
+.productCountbtn{
+  outline: none;
+  border: none;
+  color: orange;
+  font-size: 20px;
+  font-weight: 900;
+  background: transparent;
+}
+.productCountbtn:hover{
+  color: #bbbbbb;
+}
+.productCountbtn:first-child{
+  padding-right: 50px;
+}
+.productCountbtn:last-child{
+  padding-left: 50px;
+}
+.finalPrice{
+  font-size: 30px;
+  font-weight: 900;
+}
+.discountPercentage{
+  background-color: #ffe8bd;
+  padding: 0px 10px 0px 10px;
+  border-radius: 5px;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  align-items: center;
+  font-size: 15px;
+  color: #ffa600;
+  font-weight: 900;
+}
+.productprice{
+  text-decoration: line-through;
+  font-size: 20px;
+  font-weight: 500;
+  color: #bbbbbb;
+}
+
+  @media screen and (max-width:992px) {
+    #rigthSideCards{
+        display: none;
+    }
+  }
